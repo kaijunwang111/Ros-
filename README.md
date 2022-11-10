@@ -30,3 +30,10 @@ If there is a problem "E: Unable to correct problems, you have held broken packa
 `sudo aptitude install ros-noetic-desktop-full`  
 
 # qt
+
+# opencv
+
+# ceres
+
+# eigen
+
