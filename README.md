@@ -29,11 +29,45 @@ If there is a problem "E: Unable to correct problems, you have held broken packa
 
 `sudo aptitude install ros-noetic-desktop-full`  
 
-# qt
+# ceres-solver
+
+`git clone https://github.com/ceres-solver/ceres-solver`
+
+## install dependencies
+
+\# CMake
+
+`sudo apt-get install cmake`
+
+\# google-glog + gflags
+
+`sudo apt-get install libgoogle-glog-dev libgflags-dev`
+
+\# Use ATLAS for BLAS & LAPACK
+
+`sudo apt-get install libatlas-base-dev`
+
+\# Eigen3
+
+`sudo apt-get install libeigen3-dev`
+
+\# SuiteSparse (optional)
+
+`sudo apt-get install libsuitesparse-dev`
+
+## build & install
+
+`mkdir build && cd build`
+
+`cmake ..`
+
+`make -j8`
+
+`make install`
 
 # opencv
 
-# ceres
+
 
 # eigen
 
