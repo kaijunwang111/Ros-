@@ -47,7 +47,7 @@ sudo make install
 # opencv
 
 <https://opencv.org/releases/>  
-Choose a version and download sources
+Choose a version and download sources.
 
 ## install dependencies
 ```
@@ -63,5 +63,21 @@ make -j8
 sudo make install  
 ```
 
-# eigen
+# pcl
+
+```
+sudo apt install libpcl-dev
+```
+
+# Eigen3
+
+<https://eigen.tuxfamily.org/>  
+Choose a version and download it.  
+
+```
+mkdir build && cd build  
+cmake ..  
+make -j8  
+sudo make install  
+```
 
