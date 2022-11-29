@@ -21,7 +21,9 @@ sudo aptitude install ros-noetic-desktop-full
 
 # ceres-solver
 
-`git clone https://github.com/ceres-solver/ceres-solver`
+```
+git clone https://github.com/ceres-solver/ceres-solver
+```
 
 ## install dependencies
 ```
@@ -81,3 +83,23 @@ make -j8
 sudo make install  
 ```
 
+# Sophus
+
+## install fmt
+```
+git clone https://github.com/fmtlib/fmt.git
+cd fmt
+mkdir build && cd build  
+cmake ..  
+make -j8  
+sudo make install  
+```
+
+## install Sophus
+```
+git clone https://github.com/strasdat/Sophus.git
+cd Sophus
+mkdir build && cd build  
+cmake ..  
+make -j8  
+sudo make install  
