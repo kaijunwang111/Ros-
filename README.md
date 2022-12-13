@@ -68,6 +68,7 @@ sudo make install
 # pcl
 
 ```
+// git clone https://github.com/PointCloudLibrary/pcl.git 
 sudo apt install libpcl-dev
 ```
 
@@ -99,6 +100,23 @@ sudo make install
 ```
 git clone https://github.com/strasdat/Sophus.git
 cd Sophus
+mkdir build && cd build  
+cmake ..  
+make -j8  
+sudo make install  
+```
+
+# g2o
+
+## install dependencies
+```
+sudo apt-get install qt5-qmake qt5-default libqglviewer-dev-qt5 libsuitesparse-dev libcxsparse3 libcholmod3
+```
+
+## build & install
+```
+git clone https://github.com/RainerKuemmerle/g2o
+cd g2o
 mkdir build && cd build  
 cmake ..  
 make -j8  
