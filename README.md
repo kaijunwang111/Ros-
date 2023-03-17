@@ -68,20 +68,7 @@ sudo make install
 # pcl
 
 ```
-// git clone https://github.com/PointCloudLibrary/pcl.git 
 sudo apt install libpcl-dev
-```
-
-# Eigen3
-
-<https://eigen.tuxfamily.org/>  
-Choose a version and download it.  
-
-```
-mkdir build && cd build  
-cmake ..  
-make -j8  
-sudo make install  
 ```
 
 # Sophus
