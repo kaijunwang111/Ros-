@@ -109,3 +109,11 @@ cmake ..
 make -j8  
 sudo make install  
 ```
+
+# vscode路径配置
+
+```
+/usr/include/**
+/usr/local/include/**
+/opt/ros/noetic/include/**
+```
